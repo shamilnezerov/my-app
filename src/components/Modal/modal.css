@@ -1,0 +1,91 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+
+.modal.active {
+  transform: translateY(0%);
+  transition: 0.5s;
+}
+
+.modalContent {
+  margin: 10px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalTitle {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  border-radius: 12px 12px 0 0;
+  border: none;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.closeButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+}
+
+.closeicone{
+
+}
+
+.mainDiv {
+  margin: 3rem 1rem;
+}
+
+.mainTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainButton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 1rem;
+}
+
+.button {
+  display: flex;
+  background-color: rgb(4, 255, 37);
+  color: white;
+  font-size: 24px;
+  padding: 8px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.close {
+  background-color: blue;
+  color: white;
+  padding: 8px 40px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
