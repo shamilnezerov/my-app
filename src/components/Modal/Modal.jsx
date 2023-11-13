@@ -1,7 +1,7 @@
 import React from "react";
-import "../Modal/modal.css";
-import close from "../../assets/img/close.svg";
+import "../Modal/modal.scss";
 import Button from "../button/Button";
+import { ImCross } from "react-icons/im";
 
 const Modal = ({ active, setActive }) => {
   const data = [1, 2, 3];
@@ -19,7 +19,7 @@ const Modal = ({ active, setActive }) => {
         <div className="modalTitleDiv">
           <p className="modalTitle">WELCOME</p>
           <button className="closeButton" onClick={handleClickModal}>
-            <img className="closeicone" src={close} alt="" />
+            <ImCross />
           </button>
         </div>
         <div className="mainDiv">
