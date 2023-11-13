@@ -1,0 +1,63 @@
+.btn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+
+  &-primary {
+    background-color: blue;
+    color: #fff;
+  }
+
+  &-success {
+    background-color: rgb(4, 255, 37);
+    color: #fff;
+  }
+
+  &-large {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+  }
+  &-openModal {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 6rem;
+    transition: 0.5s;
+
+    &:hover {
+      animation: swing 0.5s infinite;
+    }
+
+    @keyframes swing {
+      0% {
+        transform: rotate(-5deg);
+      }
+      100% {
+        transform: rotate(5deg);
+      }
+    }
+  }
+
+  &-medium {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &-small {
+    width: 140px;
+    height: 50px;
+    font-size: 24px;
+    @media only screen and (max-width: 500px) {
+      width: 300px;
+    }
+  }
+}

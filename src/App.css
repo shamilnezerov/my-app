@@ -1,21 +1,12 @@
 *{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-
-.App{
-  display: flex;
-  justify-content: center;
-}
-
-.openModal{
-background-color: blue;
-color: white;
-font-size: 14px;
-border: none;
-padding: 8px 20px;
-margin: 10% 0;
-border-radius: 10px;
-cursor: pointer;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  .App{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
